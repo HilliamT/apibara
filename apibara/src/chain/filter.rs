@@ -43,6 +43,14 @@ impl EventFilter {
     }
 }
 
+/// Convert a TopicValue into a Topic
+/// 
+/// # Examples
+/// 
+/// ```
+/// let topic = Topic::from(topicValue)
+/// ```
+/// 
 impl From<TopicValue> for Topic {
     fn from(value: TopicValue) -> Self {
         Topic::Value(value)
