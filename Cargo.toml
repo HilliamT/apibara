@@ -1,4 +1,6 @@
 [workspace]
+# Defines packages (grouped as directories) that should share the same
+# dependencies from Cargo.lock
 members = [
     "cli",
     "apibara",
